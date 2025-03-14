@@ -1,0 +1,15 @@
+.loadMoreBtn {
+  width: 180px;
+  height: 40px;
+
+  font-size: 16px;
+
+  border-radius: 5px;
+  border: 1px solid gray;
+
+  background-color: #741414;
+}
+
+.loadMoreBtn:hover {
+  background-color: #911b1b;
+}

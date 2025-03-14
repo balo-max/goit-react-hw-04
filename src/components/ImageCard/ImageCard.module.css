@@ -1,0 +1,4 @@
+.imageItem {
+  object-fit: cover;
+  cursor: pointer;
+}

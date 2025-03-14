@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.inputSearch {
+  width: 200px;
+  height: 22px;
+  padding: 8px;
+
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.btnSearch {
+  width: 80px;
+  border-radius: 5px;
+  border: 1px solid gray;
+
+  background-color: #741414;
+}
+
+.btnSearch:hover {
+  background-color: #911b1b;
+}

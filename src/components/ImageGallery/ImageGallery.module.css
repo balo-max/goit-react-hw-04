@@ -1,0 +1,26 @@
+.imageList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.imageItem {
+  width: 360px;
+  height: 250px;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  transition: transform ease 250ms;
+}
+
+.imageItem:hover {
+  transform: scale(1.1);
+}

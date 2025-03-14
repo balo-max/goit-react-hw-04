@@ -1,0 +1,20 @@
+.wrapperModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.modalText {
+  color: #ffffff;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modalImage {
+  overflow: hidden;
+  object-fit: cover;
+}
